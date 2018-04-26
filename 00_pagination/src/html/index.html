@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>分页组件</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/index.css" />
+
+</head>
+
+<body>
+    <table border="1" id="table">
+        <thead>
+            <tr>
+                <th>item1</th>
+                <th>item2</th>
+                <th>item3</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="c-pagination">
+        <div class="pagination-text">
+            <div class="page-size">显示第<span class="start-num" id="startNum">0</span>到第<span class="end-num" id="endNum">0</span>条记录，总共<span class="total" id="total">0</span>条记录</div>
+            <div class="page-list">
+                每页显示<select name="" id="changeNumber">
+                  <option value="0">10</option>
+                  <option value="1">25</option>
+                  <option value="2">50</option>
+                  <option value="3">100</option>
+                  
+                </select>条记录
+            </div>
+        </div>
+        <ul class="pagination-number" id="paginationList">
+            <li class="prev" id="prev"><span>&lt;</span></li>
+            <li class="next" id="next"><span>&gt;</span></li>
+        </ul>
+    </div>
+    <script src="../js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../js/vender/index.js"></script>
+</body>
+
+</html>
