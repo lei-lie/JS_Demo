@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>原生JavaScript实现随机生成字母数字验证码</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/index.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="codes" class="validate-txt">请输入验证码：</label>
+                <input type="text" id="codes" class="validate-code">
+                <span class="code" id="randomCode"></span>
+                <span class="refresh" id="refresh"><img src="../img/refresh.png" alt="图片加载失败..."></span>
+                <br>
+                <span class="wrong-info" id="errorInfo"></span>
+                <br>
+                <span class="btn" id="confirm">确定</span>
+            </div>
+
+        </form>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
