@@ -57,3 +57,13 @@ https://blog.csdn.net/majormayer/article/details/51132338
 初始化页面时，先将数据进行分组，在分组之前要排除热门城市的数据，对剩余的数据进行分组，分组方法是dividArr;
 
 在点击tab切换页签时，将内容添加到对应的容器内；
+# 原生JavaScript实现图片懒加载
+## 原文地址
+https://github.com/visugar/FrontEnd-examples/blob/master/07lazyLoading/index.html
+
+## 实现思路
+1. 在img元素时，自定义一个属性data-src，用于存放图片的地址；
+2. 获取屏幕可视区域的尺寸；
+3. 获取元素到窗口边缘的距离；
+4. 判断元素时候再可视区域内，在则将data-src的值赋给src,否则，不执行其他操作；
+实质： 当图片在可视区域内时，才加载，否则不加载；
