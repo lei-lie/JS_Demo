@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>原生JavaScript实现图片懒加载</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/index.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254234&di=0c347308302493f1485bd95b087fa35a&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F13%2F83%2F81%2F06v58PICTc7_1024.jpg" alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254233&di=a3d423d02a0db6a84770ff7fe85f0a0b&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F83%2F14%2F51d58PICZza_1024.jpg" alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254233&di=fc02c4ffe92172193dab7f6e4c89ef57&imgtype=0&src=http%3A%2F%2Fimg.bimg.126.net%2Fphoto%2FQDstweS8mbD8B-_i5pdGnQ%3D%3D%2F5771925872429353698.jpg"
+                    alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254232&di=280eead6788c5397e5dc5182b3e9144b&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F19%2F22%2F13%2F5685525b2caf7_1024.jpg"
+                    alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254201&di=56fc27944a2ed878279008766a13de37&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F14%2F34%2F54%2F07S58PICv8P_1024.jpg" alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254201&di=789fd4384b866e6e400d6424612aac23&imgtype=0&src=http%3A%2F%2Fimg.bimg.126.net%2Fphoto%2F52lPHDL1HDS7fySH-7pwjQ%3D%3D%2F5771925872429353701.jpg"
+                    alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254201&di=04eda0b71093d7336be3c0dc599a1760&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fu%2F00%2F00%2F95%2F36%2F55e9305941c16.jpg"
+                    alt="图片加载失败">
+            </li>
+            <li>
+                <img class="lazy-img" src="" data-src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524570254200&di=cf50429d92d4c82936240b6cfeeb464f&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F77%2F17%2F16j58PICHq7_1024.jpg" alt="图片加载失败">
+            </li>
+        </ul>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
