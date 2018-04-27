@@ -28,7 +28,7 @@
 4. 实现一个循环次数是4的循环，在该循环中随机产生一个[0,62]的数字，用于获取1中数码数组arr的元素，然后将得到的随机数码放到2中定义的数组中，知道循环结束；
 5. 循环结束后，调用数组的join方法，将result数组中的元素进行拼接，得到最终的随机验证码；
 
-# HTML5拖放 API 学习笔记
+# HTML5拖放 API 学习笔记（02_drag&drop_h5）
 ## 参考资料
 http://www.w3school.com.cn/html5/html_5_draganddrop.asp
 ##  简单拖放规则
@@ -37,7 +37,7 @@ http://www.w3school.com.cn/html5/html_5_draganddrop.asp
 3. 给元素绑定拖动经过事件(ondragover),规定在何处放置被拖动的数据.默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，必须阻止对元素的默认处理方式。`event.preventDefault()`
 4. 进行放置操作，即是给元素绑定ondrop事件，规定放置被拖动元素时，需要进行的操作；
 
-#  原生JavaScript实现城市四级联动
+#  原生JavaScript实现城市四级联动(03_cityPicker)
 ## 数据来源
 demo数据来源于：https://github.com/visugar/FrontEnd-examples/blob/master/01%E7%9C%81%E5%B8%82%E5%8C%BA%E4%B8%89%E7%BA%A7%E8%81%94%E5%8A%A8/city02.js
 ## 参考资料
@@ -59,7 +59,7 @@ https://blog.csdn.net/majormayer/article/details/51132338
 初始化页面时，先将数据进行分组，在分组之前要排除热门城市的数据，对剩余的数据进行分组，分组方法是dividArr;
 
 在点击tab切换页签时，将内容添加到对应的容器内；
-# 原生JavaScript实现图片懒加载
+# 原生JavaScript实现图片懒加载(04_imgLazyLoad)
 
 ## 原文地址
 https://github.com/visugar/FrontEnd-examples/blob/master/07lazyLoading/index.html
