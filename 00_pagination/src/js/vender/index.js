@@ -271,7 +271,7 @@ var pagination = {
         that.totalPages = Math.ceil(that.total / that.pageSize);
         // 创建页数标签
         opt.paginationList.find("li.page").remove();
-        if (that.pageSize >= that.total) {
+        if (that.pageSize >= that.total || that.data.length <= 1) {
             opt.paginationList.hide();
         } else {
             opt.paginationList.show();

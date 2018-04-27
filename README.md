@@ -17,7 +17,8 @@
 减1的原因是源数据的索引是从0开始的，而本例中的数据开始位置是从1开始的；
 
 5.每次改变数据条数的时候，将页码置为1
-
+6. 页码列表展示
+> 根据当前数据条数是否大于等于总数据条数，若大于等于则隐藏，反之显示或者是判断表格数据的长度是否小于等于1，若是则隐藏，反之显示；
 # 原生JavaScript实现随机生成字母数字验证码(01_randomValidateCode)
 ## 实现思路
 ## 产生4位随机的组合验证码
@@ -58,6 +59,7 @@ https://blog.csdn.net/majormayer/article/details/51132338
 
 在点击tab切换页签时，将内容添加到对应的容器内；
 # 原生JavaScript实现图片懒加载
+
 ## 原文地址
 https://github.com/visugar/FrontEnd-examples/blob/master/07lazyLoading/index.html
 
